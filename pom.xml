@@ -37,8 +37,8 @@
 </dependency>
 </dependencies>
 <scm>
-<connection>scm:svn:http://192.168.33.11:8081/subversion/</connection>
-<developerConnection>scm:svn:http://192.168.33.11:8081/subversion/</developerConnection>
+<connection>scm:git:https://github.com/naishadham123/ecs_repo.git</connection>
+<developerConnection>scm:git:https://github.com/naishadham123/ecs_repo.git</developerConnection>
 </scm>
 <distributionManagement>
 <repository>
@@ -48,9 +48,9 @@ http://localhost:8081/nexus/content/repositories/ARTECH/
 </url>
 </repository>
 <snapshotRepository>	
-<id>luckysnap</id>
+<id>dummy</id>
 <url>
-http://localhost:8081/nexus/content/repositories/luckysnap/
+http://localhost:8081/nexus/content/repositories/dummy/
 </url>
 </snapshotRepository>
 </distributionManagement>
